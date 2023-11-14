@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.search-field {
+    display: flex;
+    gap: 16px;
+}
+
+.search-field > label {
+    font-size: 2rem;
+}
+
+.search-field > input {
+    padding: 8px;
+}
+
+.search-field > button {
+    padding: 8px;
+}
