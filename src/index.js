@@ -12,10 +12,8 @@ document.querySelector(".search-button").addEventListener("click", (e) => {
   e.preventDefault();
 
   const searchString = document.querySelector(".search-bar").value;
-  console.log(searchString);
 
   getGifUrl(searchString).then((data) => {
-    console.log(data);
     document.querySelector(".gif").src = data;
   });
 });
