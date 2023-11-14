@@ -20,10 +20,10 @@
     font-size: 2rem;
 }
 
-.search-field > input {
+.search-bar {
     padding: 8px;
 }
 
-.search-field > button {
+.search-button {
     padding: 8px;
 }
